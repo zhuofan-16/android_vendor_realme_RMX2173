@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),RMX2173CN)
+ifeq ($(TARGET_DEVICE),RMX2173)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := SoterService
