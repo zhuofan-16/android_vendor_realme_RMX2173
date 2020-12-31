@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/realme/RMX2173/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
     vendor/realme/RMX2173/proprietary/bin/vtservice:system/bin/vtservice \
-    vendor/realme/RMX2173/proprietary/etc/firmware/hx_criteria.csv:system/etc/firmware/hx_criteria.csv \
     vendor/realme/RMX2173/proprietary/etc/init/init.vtservice.rc:system/etc/init/init.vtservice.rc \
     vendor/realme/RMX2173/proprietary/etc/init/kpoc_charger.rc:system/etc/init/kpoc_charger.rc \
     vendor/realme/RMX2173/proprietary/etc/permissions/privapp-permissions-mediatek.xml:system/etc/permissions/privapp-permissions-mediatek.xml \
@@ -35,9 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2173/proprietary/lib/libmtk_vt_wrapper.so:system/lib/libmtk_vt_wrapper.so \
     vendor/realme/RMX2173/proprietary/lib/libmtkaudio_utils.so:system/lib/libmtkaudio_utils.so \
     vendor/realme/RMX2173/proprietary/lib/libmtkavenhancements.so:system/lib/libmtkavenhancements.so \
-    vendor/realme/RMX2173/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
     vendor/realme/RMX2173/proprietary/lib/libmtkperf_client.so:system/lib/libmtkperf_client.so \
-    vendor/realme/RMX2173/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
     vendor/realme/RMX2173/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
     vendor/realme/RMX2173/proprietary/lib/libsignal.so:system/lib/libsignal.so \
     vendor/realme/RMX2173/proprietary/lib/libsink.so:system/lib/libsink.so \
@@ -59,9 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX2173/proprietary/lib64/libmtk_vt_wrapper.so:system/lib64/libmtk_vt_wrapper.so \
     vendor/realme/RMX2173/proprietary/lib64/libmtkaudio_utils.so:system/lib64/libmtkaudio_utils.so \
     vendor/realme/RMX2173/proprietary/lib64/libmtkavenhancements.so:system/lib64/libmtkavenhancements.so \
-    vendor/realme/RMX2173/proprietary/lib64/libmtklimiter.so:system/lib64/libmtklimiter.so \
     vendor/realme/RMX2173/proprietary/lib64/libmtkperf_client.so:system/lib64/libmtkperf_client.so \
-    vendor/realme/RMX2173/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
     vendor/realme/RMX2173/proprietary/lib64/libteeservice_client.trustonic.so:system/lib64/libteeservice_client.trustonic.so \
     vendor/realme/RMX2173/proprietary/lib64/libvcodec_cap.so:system/lib64/libvcodec_cap.so \
     vendor/realme/RMX2173/proprietary/lib64/libvcodec_capenc.so:system/lib64/libvcodec_capenc.so \
